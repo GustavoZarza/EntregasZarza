@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+main{
+    background-color: #F8F9FA;
+    color: black;
+    padding: 1%;
+}
+.contenido{
+    text-align: justify;
+}
+
+footer{
+    background-color: #005187;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+.portada{
+    width: 100%;
+    height: 40%;
+
+}
+.icono{
+    width: 14px;
+}
+ form{
+    size-adjust: auto;
+ }
+ iframe{
+    width: 100%;
+ }
+ 
+ @media screen and (min-width: 1024px) {
+    .home{
+        padding-top: 5px;
+            display: flex;
+            justify-content: center;
+    }
+    .imagen{
+        height: 20%;
+        order: 1;
+        padding-left: 80px;
+    }
+    .intro{
+        font-size: x-large;
+        text-align: right;
+    }
+    .objeto{
+        display: none;
+    }
+    .vilar{
+        padding-left: 33%;
+        padding-right: 33%;
+        background-color: #EBEBEB;
+    }
+    .estado-cuestion{
+        width: 50%;
+        margin-left: 24%;
+    }
+
+ }
