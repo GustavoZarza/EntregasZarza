@@ -17,12 +17,8 @@ footer{
         background-color: $color-principal;
         color: black;
         padding: 1%;
-        .contenido{
+        p{
             text-align: justify;
-        }
-            .portada{
-                @include medidas(40%, 100%)
-
         }
         img{
             @include medidas(100%, 100%)
@@ -32,26 +28,49 @@ footer{
         }
         form{
             align-items: center;
-            margin-left: 10%;
+            margin-left: 5%;
             size-adjust: auto;
+            .nombre{width: 250px;}
+            .email{width: 271px;}
+            .telefono{width: 248px;}
+            .mensaje{width: 320px;}
+        }
+        li:hover{
+            font-size: large;
         }
         iframe{
-            @include medidas(100%, 100%)
-        }
-        .vilar{
-            @include medidas(100%, 100%)
-        }
-        .homefull{
-            display: none;
+            margin-left: 5%;
+            @include medidas(90%, 100%)
         }
     }
-
 }
-
 @media only screen and (min-width:501px) and (max-width:1023px){
+    @import "utilidades/portada";
+    @import "utilidades/variables";
     main{
+        background-color: $color-principal;
         .icono{
             @include medidas(24px, 24px)
+        }
+        li:hover{
+            font-size: larger;
+        }
+        form{
+            align-items: center;
+            size-adjust: auto;
+            .nombre{width: 250px;}
+            .email{width: 271px;}
+            .telefono{width: 248px;}
+            .mensaje{width: 320px;}
+        }
+        .contacto ul, h1, form{
+            margin-left: 30%;
+            align-items: center;
+        }
+        h2, iframe{
+            width: 70%;
+            margin-left: 15%;
+        
         }
         .contenido{
             font-size: 24px;
@@ -73,23 +92,5 @@ footer{
         img{
             @include medidas(100%, 100%);
         }
-        .homefull{
-            display: none;
-        }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

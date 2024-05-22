@@ -1,6 +1,5 @@
 $color-principal: #F8F9FA;
-
 @mixin medidas($width, $height){
-    width: $height;
+    width: $width;
     height: $height;
 }
