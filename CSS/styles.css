@@ -490,11 +490,11 @@ footer {
   main form .mensaje {
     width: 320px;
   }
-  main .contacto ul, main h1, main form {
+  main .titulocontacto, main ul, main form {
     margin-left: 30%;
     align-items: center;
   }
-  main h2, main iframe {
+  main .donde, main iframe {
     width: 70%;
     margin-left: 15%;
   }
